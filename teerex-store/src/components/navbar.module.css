@@ -1,0 +1,16 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 20px; 
+  background-color: rgb(227, 222, 222);  
+  text-decoration: none;
+}
+.links {
+  display: flex;
+  justify-content: right;
+}
+.links * {
+  margin: 10px;
+  text-decoration: none;
+  color: black;
+}
