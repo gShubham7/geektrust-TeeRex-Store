@@ -4,12 +4,12 @@ import ProductCard from "../components/ProductCard";
 const Store = () => {
   return (
     <>
-      <h1>
+      <div>
         <h1 style={{ marginTop: "8rem", textAlign: "center" }}>
           Browse the Store!
         </h1>
         <p>New Arrivals for you! Check out our selection of products.</p>
-      </h1>
+      </div>
       <div
         style={{
           maxWidth: "1024px",
