@@ -1,0 +1,26 @@
+.singleCartItem {
+  border-bottom: 1px solid gray;
+  padding: 10px 0;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+.singleCartItem:nth-child(1) {
+  border-top: 1px solid gray;
+}
+.product {
+  width: 100px;
+  height: auto;
+  padding-right: 2rem;
+}
+.btnContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.icon {
+  width: 1.6rem;
+  height: auto;
+}
